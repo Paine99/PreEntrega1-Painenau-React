@@ -21,6 +21,29 @@ const products =[
     category:'reparacion',
     img:'',
     stock:100,
+    description:'Arreglo de cualquier vidrio (MO)'},
+    {
+        id:'4',
+        name:'Celular caja sellada samsung',
+        price:15000,
+        category:'celular',
+        img:'',
+        stock:6,
+        description:'Arreglo de cualquier modulo (MO)'
+    },
+    {        id:'5',
+    name:'Vidrio templado',
+    price:2000,
+    category:'accesorios',
+    img:'',
+    stock:50,
+    description:'Arreglo de cualquier pin de carga (MO)'},
+    {        id:'6',
+    name:'Protector HydroGel',
+    price:3000,
+    category:'accesorios',
+    img:'',
+    stock:80,
     description:'Arreglo de cualquier vidrio (MO)'}
 ]
 export const getProducts = () => {
