@@ -1,0 +1,26 @@
+.Counter {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.Controls {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100px;
+    margin-right:10px ;
+}
+
+.Button{
+    background-color: hsl(263, 100%, 48%);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin: 0;
+    padding: auto 0;
+}
+
